@@ -6,10 +6,10 @@ ePrivacy Directive consent text I'm took from https://www.privacypolicies.com/co
 ### Usage Example 
 To connect the widget, you need to insert these 2 lines into the head tag:
 
-    <link rel="stylesheet" href="https://github.com/chezzyderp/cookie-widget/widget.css">
-    <script src="https://github.com/chezzyderp/cookie-widget/widget.js">
+    <link rel="stylesheet" href="https://github.com/chezzyderp/cookie-widget/build/widget.min.css">
+    <script src="https://github.com/chezzyderp/cookie-widget/build/widget.min.js">
 #### Also you can 
-Just download widget.js and widget.css and use them locally.
+Just download widget.min.js and widget.min.css from build folder and use them locally.
 
 ## Widget Appearance
 
