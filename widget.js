@@ -1,5 +1,5 @@
 
-const widgetDomain = 'https://github.com/chezzyderp/cookie-widget' 
+const widgetDomain = 'https://chezzyderp.github.io/cookie-widget/' 
 
 // Get cookie value by name
 const getCookieByName = (name) =>{
@@ -39,7 +39,7 @@ if(!cookiesWidgetSkipped){
     document.write(` 
         <div class="cookie_widget">
             <div class="cookie_widget_wrap">
-                <img src="${widgetDomain}/cookie.svg" alt="">
+                <img src="https://chezzyderp.github.io/cookie-widget/cookie.svg" alt="">
                 <div class="cookie_widget_texts">
                         <p class="cookie_widget_title">
                             Cookie!
