@@ -1,0 +1,26 @@
+{
+  "name": "cookie-widget",
+  "version": "0.0.1",
+  "description": "Cookie widget",
+  "main": "widget.js",
+  "devDependencies": {
+    "concurrently": "^7.4.0"
+  },
+  "scripts": {
+    "build":"concurrently \"uglifyjs widget.js --compress --output ./build/widget.min.js \" \"css-minify -f  ./widget.css  -o ./build \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChezzyDerp/cookie-widget.git"
+  },
+  "keywords": [
+    "cookie",
+    "widget"
+  ],
+  "author": "Ivan Tezin <ivantezin2@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChezzyDerp/cookie-widget/issues"
+  },
+  "homepage": "https://github.com/ChezzyDerp/cookie-widget#readme"
+}
