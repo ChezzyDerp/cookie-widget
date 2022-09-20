@@ -10,9 +10,11 @@ To connect the widget, you need to insert these 2 lines into the head tag:
     <script src="https://github.com/chezzyderp/cookie-widget/build/widget.min.js">
 #### Also you can 
 You can also write your own custom text , for this you need to use the text attribute in the script tag
+
     <script text="custom text" src="https://chezzyderp.github.io/cookie-widget/build/widget.min.js"></script>
 
 (![image](https://user-images.githubusercontent.com/78046258/191298399-e28038f2-8312-4305-ab48-c1b36ef6b122.png))
+
 Just download widget.min.js and widget.min.css from build folder and use them locally.
 
 ## Widget Appearance
