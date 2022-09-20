@@ -8,7 +8,8 @@
 .wrap{
     display: flex;
     flex-direction: column;
-    max-width: 30%;
+    width:60%;
+    min-width: 250px;
 }
 .title{
     display: flex;
@@ -18,9 +19,12 @@
 .title img{
     width: 50px;
 }
-
+.code{
+    word-break: break-all;
+}
 .code p{
     margin: 0;
     padding: 5px 15px;
     background-color: rgb(241, 240, 240);
+    
 }
