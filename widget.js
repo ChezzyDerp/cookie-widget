@@ -39,7 +39,7 @@ if(!cookiesWidgetSkipped){
     document.write(` 
         <div class="cookie_widget">
             <div class="cookie_widget_wrap">
-                <img src="https://chezzyderp.github.io/cookie-widget/cookie.svg" alt="">
+                <img src="${widgetDomain}/cookie.svg" alt="">
                 <div class="cookie_widget_texts">
                         <p class="cookie_widget_title">
                             Cookie!
