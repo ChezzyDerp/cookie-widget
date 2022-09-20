@@ -10,11 +10,11 @@
     flex-direction: column;
     width:60%;
     min-width: 250px;
-    align-items: center;
-    text-align: left;
+    
 }
 .wrap img{
     width: 50%;
+    min-width: 250px;
 }
 .title{
     display: flex;

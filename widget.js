@@ -30,6 +30,9 @@ cookiesWidgetSkipped = getCookieByName('cookiesWidgetSkipped')
 
 if(!cookiesWidgetSkipped){
 
+    const text = document.currentScript.getAttribute('text') 
+
+
     // Create accept button
     _acceptButton = document.createElement('button')
     _acceptButton.innerText = 'Accept'
@@ -45,8 +48,8 @@ if(!cookiesWidgetSkipped){
                             Cookie!
                         </p>
                         <p class="cookie_widget_text">
-                            We use cookies and other tracking technologies to improve your browsing experience on our website,
-                            to show you personalized content and targeted ads, to analyze our website traffic, and to understand where our visitors are coming from. 
+                            ${text || `We use cookies and other tracking technologies to improve your browsing experience on our website,
+                            to show you personalized content and targeted ads, to analyze our website traffic, and to understand where our visitors are coming from. `}
                         </p>
                 </div>
             </div>
