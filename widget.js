@@ -28,10 +28,17 @@ const setCookieSkipped = () => {
   
 cookiesWidgetSkipped = getCookieByName('cookiesWidgetSkipped')
 
+
+//  If script has a every_active prop
+const every_active = document.currentScript.getAttribute('every_active')
+// Script will ignore cookies and every show notification
+every_active != null ? cookiesWidgetSkipped = false : null
+
+
 if(!cookiesWidgetSkipped){
 
     const text = document.currentScript.getAttribute('text') 
-
+    const every_active = document.currentScript.getAttribute('text') 
 
     // Create accept button
     _acceptButton = document.createElement('button')
