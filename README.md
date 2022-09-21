@@ -15,6 +15,10 @@ You can also write your own custom text , for this you need to use the text attr
 
 (![image](https://user-images.githubusercontent.com/78046258/191298399-e28038f2-8312-4305-ab48-c1b36ef6b122.png))
 
+Also you can write every_active prop to script and cookie notification will show you every time
+
+    <script every_active src="https://chezzyderp.github.io/cookie-widget/build/widget.min.js"></script>
+
 Just download widget.min.js and widget.min.css from build folder and use them locally.
 
 ## Widget Appearance
